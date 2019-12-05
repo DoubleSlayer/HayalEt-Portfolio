@@ -15,4 +15,10 @@ module ApplicationHelper
         content_tag(:p, greeting, class: "source-greeting")
       end
   end
+
+   def copyright_generator
+    HayaletViewTool::Renderer.copyright 'Sinan KILIÇ', 'All rights reserved'
+  end
 end
+
+
