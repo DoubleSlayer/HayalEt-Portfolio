@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -50,4 +50,4 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'ostruct'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
-gem 'hayalet_view_tool', git: 'https://github.com/DoubleSlayer/hayalet_view_tool'
+gem 'hayalet_view_tool', '~> 0.1.0'
