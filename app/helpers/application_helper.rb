@@ -20,5 +20,3 @@ module ApplicationHelper
     HayaletViewTool::Renderer.copyright 'Sinan KILIÇ', 'All rights reserved'
   end
 end
-
-
