@@ -17,6 +17,10 @@ require("jquery")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-//= require jquery3
+//= require rails-ujs
+//= require jquery
+//= require jquery_ujs
 //= require popper
 //= require bootstrap-sprockets
+//= require turbolinks
+//= require tree .
