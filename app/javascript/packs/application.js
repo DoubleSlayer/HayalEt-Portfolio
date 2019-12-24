@@ -24,3 +24,7 @@ require("jquery")
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require tree .
+//
+
+import "bootstrap";
+import "./sinan";
