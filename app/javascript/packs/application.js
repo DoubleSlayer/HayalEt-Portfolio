@@ -30,6 +30,5 @@ require("jquery")
 import "bootstrap";
 import "./sinan";
 import "./html.sortable";
-import "./dene";
 import "./portfolios";
-
+import "./jquery-ui";
