@@ -20,6 +20,7 @@ require("jquery")
 //= require rails-ujs
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require popper
 //= require bootstrap-sprockets
 //= require turbolinks
@@ -28,3 +29,6 @@ require("jquery")
 
 import "bootstrap";
 import "./sinan";
+import "./html.sortable";
+import "./portfolios";
+import "./jquery-ui";
