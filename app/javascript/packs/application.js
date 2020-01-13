@@ -25,14 +25,17 @@ require("jquery")
 //= require jquery-ui
 //= require popper
 //= require bootstrap-sprockets
+//= require gritter
 //= require turbolinks
 //= require tree .
 //
 
+import "./jq";
 import "bootstrap";
 import "./sinan";
 import "./html.sortable";
 import "./portfolios";
 import "./jquery-ui";
 import "./cocoon";
+import "./alerts";
 
