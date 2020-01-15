@@ -65,6 +65,8 @@ module ApplicationHelper
     'warning'
   when 'notice'
     'info'
+  when 'error'
+    'warning'
   else
     flash_type.to_s
   end

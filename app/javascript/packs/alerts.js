@@ -15,11 +15,9 @@ let ready = () => {
         }
     });
 
-    if(message !== undefined){
         Toast.fire({
             icon: type,
             title: message
         })
-    } 
 };
 $('document').ready(ready);
