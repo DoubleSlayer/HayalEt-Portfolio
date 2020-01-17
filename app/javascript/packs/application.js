@@ -26,6 +26,7 @@ require("jquery")
 //= require popper
 //= require bootstrap-sprockets
 //= require gritter
+//= require cable
 //= require turbolinks
 //= require tree .
 //
