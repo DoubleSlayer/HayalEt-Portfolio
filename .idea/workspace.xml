@@ -20,7 +20,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -64,6 +64,7 @@
       <workItem from="1578921143708" duration="5252000" />
       <workItem from="1578991870412" duration="43000" />
       <workItem from="1579272644570" duration="23000" />
+      <workItem from="1579523962236" duration="7165000" />
     </task>
     <servers />
   </component>
@@ -75,9 +76,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="390" y="271" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1578921278864" />
-    <state x="681" y="210" key="SettingsEditor" timestamp="1578927143052">
+    <state x="747" y="158" key="SettingsEditor" timestamp="1579524755233">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="681" y="210" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1578927143052" />
+    <state x="747" y="158" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1579524755233" />
   </component>
 </project>
