@@ -20,7 +20,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -65,6 +65,7 @@
       <workItem from="1578991870412" duration="43000" />
       <workItem from="1579272644570" duration="23000" />
       <workItem from="1579523962236" duration="15882000" />
+      <workItem from="1580130093624" duration="124000" />
     </task>
     <servers />
   </component>
@@ -76,9 +77,9 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="390" y="240" width="1092" height="920" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1579621580674" />
-    <state x="382" y="218" key="SettingsEditor" timestamp="1579672600260">
+    <state x="745" y="207" key="SettingsEditor" timestamp="1580130210585">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="382" y="218" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1579672600260" />
+    <state x="745" y="207" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1580130210585" />
   </component>
 </project>
