@@ -19,6 +19,8 @@ ready = ->
         position: i + 1
       return
     $.ajax
+      beforeSend: (xhr) ->
+        return xhr.setRequestHeader 'X-CSRF-Token', $('meta[name="csrf-token"]').attr('content')
       type: 'PUT'
       url: '/portfolios/sort'
       data: order: updated_order

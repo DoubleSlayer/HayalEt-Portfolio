@@ -18,6 +18,12 @@ Rails.application.routes.draw do
     end
   end
 
+  devise_scope :user do
+    get 'logout', to: 'devise/sessions#destroy'
+    get 'login', to: 'devise/sessions#new'
+    get 'register', to: 'devise/registrations#new'
+end
+
   mount ActionCable.server => '/cable'
 
   root to: 'pages#home'
