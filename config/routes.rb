@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   resources :topics, only: [:index, :show]
   devise_for :users, path: '', path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'register' }
   resources :portfolios, except: [:show] do
@@ -16,6 +17,12 @@ Rails.application.routes.draw do
       get :toggle_status
     end
   end
+
+  devise_scope :user do
+    get 'logout', to: 'devise/sessions#destroy'
+    get 'login', to: 'devise/sessions#new'
+    get 'register', to: 'devise/registrations#new'
+end
 
   mount ActionCable.server => '/cable'
 
